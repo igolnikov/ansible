@@ -1,0 +1,7 @@
+[zabbix_servers]
+10.10.31.60
+
+
+[ansible_servers]
+10.10.31.59
+

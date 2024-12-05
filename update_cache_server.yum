@@ -1,0 +1,7 @@
+---
+- hosts: zabbix_servers:ansible_servers
+  tasks:
+    - name: Update package cache
+      become: yes
+      apt:
+        update_cache: yes
